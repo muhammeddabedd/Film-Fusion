@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Italiana:wght@400;700&display=swap");
+nav {
+  display: flex;
+  justify-content: space-between; /* Aligns items evenly */
+  align-items: center; /* Vertically centers items */
+  background-color: #06131a; /* Background color of the navbar */
+  padding: 10px; /* Add some padding to the navbar */
+}
+.nav-link {
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin-left: 940px;
+}
+
+li {
+  margin-right: 40px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.logo {
+  margin-right: auto; /* Pushes the logo to the left */
+}
+
+.profile-icon {
+  margin-left: auto; /* Pushes the profile icon to the right */
+}
+
+h2 {
+    padding-top: 50px;
+    color: #ffffff;
+    margin-left: 10%;
+    font-size: 40px;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+}
