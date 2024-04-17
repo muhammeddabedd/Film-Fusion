@@ -68,5 +68,14 @@ footer {
   background-color: #06131a;
   color: white;
   text-align: center;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
   padding: 10px;
+}
+footer p {
+  padding-top: 0px;
+  color: #ffffff;
+  margin-left: 0%;
+  font-size: 16px;
 }
