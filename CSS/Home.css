@@ -112,3 +112,9 @@ body {
   width: 100%;
   overflow-y: auto; /* Enable vertical scrolling for the entire movie list */
 }
+footer {
+  background-color: #06131a;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
