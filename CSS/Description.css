@@ -34,10 +34,19 @@ a {
 }
 
 h2 {
-    padding-top: 50px;
+    padding-top: 10%;
     color: #ffffff;
     margin-left: 10%;
     font-size: 40px;
+}
+h3 {
+  padding-top: 5px;
+  color: rgb(92,131,116);
+  margin-left: 5%;
+  font-size: 40px;
+  margin-top: 20px;
+
+
 }
 header {
     position: fixed;
@@ -45,4 +54,74 @@ header {
     left: 0;
     right: 0;
     z-index: 1000; 
+}
+h1 {
+    padding-top: 10px;
+    color: rgb(92,131,116);
+    margin-left: 10%;
+    font-size: 40px;
+    margin-top: 70px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Italiana", sans-serif;
+  background-color: #040d12;
+} 
+main {
+  margin: auto;
+}
+.item-container {
+  display: flex;
+  justify-content: flex-start; /* Changed from flex-end to flex-start */
+  align-items: center;
+}
+
+.item-container img,
+.item-container iframe {
+  margin-right: 0px; /* Adjust the value as needed */
+  margin-left: 70px;
+}
+p{
+  color: #ffffff;
+  margin-right: 30%;
+  font-family: "Italiana", sans-serif;
+  margin-left: 30px;
+}
+.button {
+  display: inline-block;
+  padding: 15px 30px; /* Increased padding for bigger buttons */
+  margin: 10px;
+  background-color: transparent; /* Transparent background */
+  color: #ffffff; /* Blue text color */
+  border: 2px solid  rgb(92,131,116); /* Blue border */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 18px; /* Increased font size */
+  font-family: "Italiana", sans-serif;
+}
+.button-container {
+  text-align: left; /* Align buttons to the right */
+  margin-right: 20px; /* Add margin to create space on the right */
+  margin-left: 70px;
+  margin-top: 40px;
+}
+.button:hover {
+  background-color: rgb(92,131,116); /* Blue background on hover */
+  color: #fff; /* White text color on hover */
+}
+.image-container {
+  display: flex;
+  justify-content: flex-start; /* Align images to the right */
+  margin-left: 70px; /* Add margin to create space on the right */
+  margin-top: 30px; /* Add margin at the top */
+}
+
+.circle-image {
+  width: 100px; /* Set the width of the circle images */
+  height: 100px; /* Set the height of the circle images */
+  border-radius: 50%; /* Create a circular shape */
+  overflow: hidden; /* Hide overflow content (if any) */
+  margin-right: 10px; /* Add margin between images */
 }
