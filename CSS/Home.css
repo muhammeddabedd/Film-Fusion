@@ -6,9 +6,6 @@ nav {
   background-color: #06131a; /* Background color of the navbar */
   padding: 10px; /* Add some padding to the navbar */
 }
-.nav-link {
-}
-
 ul {
   display: flex;
   list-style-type: none;
@@ -88,29 +85,45 @@ body {
     opacity: 1;
   }
 }
-.scrolling-container {
-  width: 100%;
-  overflow-x: auto;
-  white-space: nowrap;
-  max-height: 300px; /* Set the maximum height of the container */
+.row {
   display: flex;
   justify-content: center; /* Center the movie cards horizontally */
-  align-items: center; /* Center the movie cards vertically */
 }
-.movie-card {
+.card {
   display: inline-block;
-  width: 150px; /* Adjust width as needed */
+
   margin-right: 25px; /* Add spacing between cards */
   text-align: center;
+  position: relative;
 }
-
-.movie-card img {
-  width: 100%;
-  height: auto;
+.card img {
+  width: 200px;
+  opacity: 1;
+  display: block;
+  transition: opacity 0.5s ease;
+  backface-visibility: hidden;
 }
-.movie-list {
-  width: 100%;
-  overflow-y: auto; /* Enable vertical scrolling for the entire movie list */
+.card:hover img {
+  opacity: 0.1;
+}
+.overlay {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  transition: opacity 0.5s ease;
+  width: 200px;
+}
+.card:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: #04aa6d;
+  font-size: 20px;
+  width: 200px;
+  text-align: center;
 }
 footer {
   background-color: #06131a;
