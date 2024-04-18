@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Film Fusion - Sign-up</title>
+    <link rel="stylesheet" href="/CSS/Home.css" />
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Italiana:wght@400;700&display=swap");
+
+        .div1 {
+            background-color: #06131a;
+            width: 50%;
+            padding-top: 150px;
+            padding-left: 160px;
+            float: left;
+        }
+        
+        .div2 {
+            background-color: #06131a;
+            width: 50%;
+            float: right;
+            display: flex;
+            justify-content: center;
+            height: 50vh;
+            flex-direction: column;
+        }
+        h1{
+            color: white;
+            font-size: 45px;
+            align-self: center;
+            padding-top: 20%;
+        }
+        label{
+            color: white;
+            font-size: 45px;
+            padding-left: 25%;
+
+            
+        }
+        input{
+            color: white;
+            font-size: 45px;
+            width: 50%;
+            align-self: center;
+        }
+        button {
+            background-color: #5C8374;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            width: 50%;
+            font-size: 30px;
+            border-radius: 17px;
+            font-family:Italiana;
+            align-self: center;
+
+        }
+
+        #btn2 {
+            background-color: #06131a;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            width: 50%;
+            font-size: 30px;
+            border-radius: 17px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+            
+        }
+    </style>
+  </head>
+  <body style="background-color: #06131a; ;">
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="home.html">
+            <img src="/Images/Logo.png" alt="Film Fusion Logo" width="170" height="80"/>
+          </a>
+        </div>
+        <ul class="nav-links">
+          <li></li>
+          <li><a href="movies.html">Movies</a></li>
+          <li><a href="series.html">Series</a></li>
+          <li><a href="About-us.html">About Us</a></li>
+        </ul>
+        <div class="profile-icon">
+            <a href="Sign-up.html"><img src="/Images/PersonCircle-colored.png" /></a>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="div1">
+                <img src="/Images/image.png" />
+            </div>
+            <div class="div2">
+                <h1>Sign In</h1>
+                <label for="Email" style="color: white;">Email</label><br>
+                <input type="email" name="email"id="email"> <br>
+                <label for="password" style="color: white;">Password</label><br>
+                <input type="password" name="password" id="password"><br><br><br><br>
+                <button type="submit">Sign Up</button>
+                <button id="btn2"  type="submit">Forget Password</button>
+
+            </div>
+          </div>
+
+    </main>
+    <footer>
+        
+      <p>.<br><br><br><br><br>&copy; 2024 Film Fusion. All rights reserved.</p>
+    </footer>
+    <script src="/JS/Home.js"></script>
+  </body>
+</html>
+
+
+
