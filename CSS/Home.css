@@ -6,8 +6,6 @@ nav {
   background-color: #06131a; /* Background color of the navbar */
   padding: 10px; /* Add some padding to the navbar */
 }
-.nav-link {
-}
 
 ul {
   display: flex;
