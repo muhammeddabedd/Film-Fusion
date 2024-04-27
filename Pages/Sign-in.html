@@ -6,83 +6,99 @@
     <title>Film Fusion - Sign-In</title>
     <link rel="stylesheet" href="/CSS/Home.css" />
     <style>
-        @import url("https://fonts.googleapis.com/css2?family=Italiana:wght@400;700&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Italiana:wght@400;700&display=swap");
 
-        .div1 {
-            background-color: #06131a;
-            width: 50%;
-            padding-top: 150px;
-            padding-left: 160px;
-            float: left;
-        }
-        
-        .div2 {
-            background-color: #06131a;
-            width: 50%;
-            float: right;
-            display: flex;
-            justify-content: center;
-            height: 50vh;
-            flex-direction: column;
-        }
-        h1{
-            color: white;
-            font-size: 45px;
-            align-self: center;
-            padding-top: 20%;
-        }
-        label{
-            color: white;
-            font-size: 45px;
-            padding-left: 25%;
+      .div1 {
+        background-color: #06131a;
+        width: 50%;
+        padding-top: 150px;
+        padding-left: 160px;
+        float: left;
+      }
 
-            
-        }
-        input{
-            color: white;
-            font-size: 45px;
-            width: 50%;
-            align-self: center;
-        }
-        button {
-            background-color: #5C8374;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 20px;
-            cursor: pointer;
-            width: 50%;
-            font-size: 30px;
-            border-radius: 17px;
-            font-family:Italiana;
-            align-self: center;
+      .div2 {
+        background-color: #06131a;
+        width: 50%;
+        float: right;
+        display: flex;
+        justify-content: center;
+        height: 50vh;
+        flex-direction: column;
+      }
+      h1 {
+        color: white;
+        font-size: 45px;
+        align-self: center;
+        padding-top: 20%;
+      }
+      label {
+        color: white;
+        font-size: 45px;
+        padding-left: 25%;
+      }
+      input {
+        color: white;
+        font-size: 45px;
+        width: 50%;
+        align-self: center;
+      }
+      button {
+        background-color: #5c8374;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        width: 50%;
+        font-size: 30px;
+        border-radius: 17px;
+        font-family: Italiana;
+        align-self: center;
+      }
 
-        }
+      #btn2 {
+        background-color: #06131a;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        width: 50%;
+        font-size: 30px;
+        border-radius: 17px;
+      }
 
-        #btn2 {
-            background-color: #06131a;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 20px;
-            cursor: pointer;
-            width: 50%;
-            font-size: 30px;
-            border-radius: 17px;
-        }
-
-        button:hover {
-            background-color: #45a049;
-            
-        }
+      button:hover {
+        background-color: #45a049;
+      }
+      footer {
+        background-color: #06131a;
+        color: white;
+        text-align: center;
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+        padding: 10px;
+      }
+      footer p {
+        padding-top: 0px;
+        color: #ffffff;
+        margin-left: 0%;
+        font-size: 16px;
+      }
     </style>
   </head>
-  <body style="background-color: #06131a; ;">
+  <body style="background-color: #06131a">
     <header>
       <nav>
         <div class="logo">
           <a href="home.html">
-            <img src="/Images/Logo.png" alt="Film Fusion Logo" width="170" height="80"/>
+            <img
+              src="/Images/Logo.png"
+              alt="Film Fusion Logo"
+              width="170"
+              height="80"
+            />
           </a>
         </div>
         <ul class="nav-links">
@@ -92,35 +108,35 @@
           <li><a href="About-us.html">About Us</a></li>
         </ul>
         <div class="profile-icon">
-            <a href="Sign-up.html"><img src="/Images/PersonCircle-colored.png" /></a>
+          <a href="Sign-up.html"
+            ><img src="/Images/PersonCircle-colored.png"
+          /></a>
         </div>
       </nav>
     </header>
     <main>
-        <div class="container">
-            <div class="div1">
-                <img src="/Images/image.png" />
-            </div>
-            <div class="div2">
-                <h1>Sign In</h1>
-                <label for="Email" style="color: white;">Email</label><br>
-                <input type="email" name="email"id="email"> <br>
-                <label for="password" style="color: white;">Password</label><br>
-                <input type="password" name="password" id="password"><br><br><br><br>
-                <button type="submit">Sign In</button>
-                <button id="btn2"  type="submit">Forget Password</button>
-
-            </div>
-          </div>
-
+      <div class="container">
+        <div class="div1">
+          <img src="/Images/image.png" />
+        </div>
+        <div class="div2">
+          <h1>Sign In</h1>
+          <label for="Email" style="color: white">Email</label><br />
+          <input type="email" name="email" id="email" /> <br />
+          <label for="password" style="color: white">Password</label><br />
+          <input
+            type="password"
+            name="password"
+            id="password"
+          /><br /><br /><br /><br />
+          <button type="submit">Sign In</button>
+          <button id="btn2" type="submit">Forget Password</button>
+        </div>
+      </div>
     </main>
     <footer>
-        
-      <p style="padding-top: 35%;">.<br><br><br><br><br>&copy; 2024 Film Fusion. All rights reserved.</p>
+      <p>&copy; 2024 Film Fusion. All rights reserved.</p>
     </footer>
     <script src="/JS/Home.js"></script>
   </body>
 </html>
-
-
-
