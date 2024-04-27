@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Film Fusion - Sign-Up</title>
+    <title>Film Fusion - Sign-In</title>
     <link rel="stylesheet" href="/CSS/Home.css" />
     <style>
         @import url("https://fonts.googleapis.com/css2?family=Italiana:wght@400;700&display=swap");
@@ -27,20 +27,20 @@
         }
         h1{
             color: white;
-            font-size: 35px;
+            font-size: 45px;
             align-self: center;
-            padding-top: 30%;
+            padding-top: 20%;
         }
         label{
             color: white;
-            font-size: 35px;
+            font-size: 45px;
             padding-left: 25%;
 
             
         }
         input{
             color: white;
-            font-size: 35px;
+            font-size: 45px;
             width: 50%;
             align-self: center;
         }
@@ -67,7 +67,7 @@
             border-radius: 20px;
             cursor: pointer;
             width: 50%;
-            font-size: 28px;
+            font-size: 30px;
             border-radius: 17px;
         }
 
@@ -75,24 +75,6 @@
             background-color: #45a049;
             
         }
-        .container2 {
-            display: flex;
-            justify-content:space-between;
-            
-        }
-
-        .text1{
-            float: left;
-            width: 50%;
-            padding-left: 25%;
-            
-        }
-        .text2{
-            float: right;
-            width: 50%;
-            
-        }
-
     </style>
   </head>
   <body style="background-color: #06131a; ;">
@@ -120,25 +102,14 @@
                 <img src="/Images/image.png" />
             </div>
             <div class="div2">
-                <h1>Sign Up</h1>
-                <div class="container2">
-                    <div class="text1">
-                        <label for="Text" style="color: white; padding-left:0%;">First Name</label><br>
-                        <input style="width: 90%;"  type="Text" name="Text"id="Text"> <br>
-                    </div>
-                    <div class="text2">
-                        <label for="Text" style="color: white; padding-left: 0%;">Second Name</label><br>
-                        <input style="width: 50%;"  type="Text" name="Text"id="Text2"> <br><br>
-                    </div>
-                  </div>
+                <h1>Sign In</h1>
                 <label for="Email" style="color: white;">Email</label><br>
                 <input type="email" name="email"id="email"> <br>
                 <label for="password" style="color: white;">Password</label><br>
-                <input type="password" name="password" id="password"><br>
-                <label for="password" style="color: white;">Confirm Password</label><br>
                 <input type="password" name="password" id="password"><br><br><br><br>
-                <button type="submit">Sign Up</button>
-                <p style="align-self: center; font-size: 28px; color: white; ">Already Have An Account? </><a href="Sign-in.html" style="color: #5C8374; font-size: 28px; align-self:center;">Sign In</p></a>
+                <button type="submit">Sign In</button>
+                <button id="btn2"  type="submit">Forget Password</button>
+
             </div>
           </div>
 
