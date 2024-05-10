@@ -59,7 +59,7 @@ body {
 }
 
 /* Slideshow container */
-.slideshow-container {
+#Slideshow {
   max-width: 1000px;
   position: relative;
   margin: auto;
